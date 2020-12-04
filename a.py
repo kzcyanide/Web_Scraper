@@ -1,5 +1,6 @@
 from urllib.request import urlopen as ureq
 from bs4 import BeautifulSoup as soup
+import requests
 
 my_url = "https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphics%20card"
 #opening up connection and grabbing the link  
